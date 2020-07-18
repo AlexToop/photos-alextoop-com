@@ -1,0 +1,15 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-photos-alextoop-com-prod-201318-authRole",
+            "UnauthRoleArn": "arn:aws:iam::582604954542:role/amplify-photos-alextoop-com-prod-201318-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::582604954542:role/amplify-photos-alextoop-com-prod-201318-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "amplify-photos-alextoop-com-prod-201318-deployment",
+            "UnauthRoleName": "amplify-photos-alextoop-com-prod-201318-unauthRole",
+            "StackName": "amplify-photos-alextoop-com-prod-201318",
+            "StackId": "arn:aws:cloudformation:eu-west-2:582604954542:stack/amplify-photos-alextoop-com-prod-201318/be072490-c92a-11ea-bbe2-0aad4e0395e8",
+            "AmplifyAppId": "d1i3rukfvlnkof"
+        }
+    }
+}
