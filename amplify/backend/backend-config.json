@@ -1,10 +1,9 @@
 {
 	"auth": {
-		"photosalextoopcomc501690e": {
+		"photosalextoopcomauth": {
 			"service": "Cognito",
 			"providerPlugin": "awscloudformation",
-			"dependsOn": [],
-			"customAuth": false
+			"dependsOn": []
 		}
 	},
 	"storage": {

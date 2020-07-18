@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "photosalextoopcomc501690e_identitypool_c501690e",
+    "identityPoolName": "photosalextoopcom",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "photosc501690e",
-    "userPoolName": "photosalextoopcomc501690e_userpool_c501690e",
+    "resourceNameTruncated": "photosa24f1b44",
+    "userPoolName": "photosalextoopcom",
     "autoVerifiedAttributes": [
         "email"
     ],
@@ -12,7 +12,7 @@
     ],
     "smsAuthenticationMessage": "Your authentication code is {####}",
     "smsVerificationMessage": "Your verification code is {####}",
-    "emailVerificationSubject": "Your verification code",
+    "emailVerificationSubject": "Your verification code: photos.alextoop.com",
     "emailVerificationMessage": "Your verification code is {####}",
     "defaultPasswordPolicy": false,
     "passwordPolicyMinLength": 8,
@@ -28,10 +28,20 @@
     "userpoolClientReadAttributes": [
         "email"
     ],
-    "userpoolClientLambdaRole": "photosc501690e_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "photosa24f1b44_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "resourceName": "photosalextoopcomc501690e",
+    "useDefault": "manual",
     "authSelections": "identityPoolAndUserPool",
+    "resourceName": "photosalextoopcomauth",
+    "thirdPartyAuth": false,
+    "usernameAttributes": [
+        "email"
+    ],
+    "userPoolGroups": false,
+    "adminQueries": false,
+    "triggers": "{}",
+    "hostedUI": false,
+    "userPoolGroupList": [],
     "authRoleArn": {
         "Fn::GetAtt": [
             "AuthRole",
@@ -44,10 +54,9 @@
             "Arn"
         ]
     },
-    "useDefault": "default",
-    "usernameAttributes": [
-        "email"
-    ],
-    "userPoolGroupList": [],
+    "parentStack": {
+        "Ref": "AWS::StackId"
+    },
+    "permissions": [],
     "dependsOn": []
 }
