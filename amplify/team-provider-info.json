@@ -10,6 +10,11 @@
             "StackName": "amplify-photos-alextoop-com-prod-201318",
             "StackId": "arn:aws:cloudformation:eu-west-2:582604954542:stack/amplify-photos-alextoop-com-prod-201318/be072490-c92a-11ea-bbe2-0aad4e0395e8",
             "AmplifyAppId": "d1i3rukfvlnkof"
+        },
+        "categories": {
+            "auth": {
+                "photosalextoopcomc501690e": {}
+            }
         }
     }
 }

@@ -1,1 +1,16 @@
-{}
+{
+	"auth": {
+		"photosalextoopcomc501690e": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	},
+	"storage": {
+		"photosAlextoopComUpload": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
